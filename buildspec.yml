@@ -9,7 +9,7 @@ phases:
       - echo Cleaning build files and caches
       - go clean
       - echo running unit tests
-      - go ./...
+      - go test ./...
   build:
     commands:
       - echo Build started on `date`
